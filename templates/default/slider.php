@@ -3,6 +3,10 @@
  * Template Name: Default
  */
 
+/**
+ * TODO: replace some of template with actions that we can hook into rather than having so much markup in there that really shouldn't be messed with no matter the template styling/formatting.
+ */
+
 ?>
 
 
@@ -91,7 +95,6 @@
 							'post_type'         => $slide['auto_slide']['post_type'],
 							'posts_per_page'    => -1,
 							'post__in'          =>  $include_posts,
-							'cat'               => $slide['auto_slide']['category'],
 							'orderby'           => $slide['auto_slide']['orderby'],
 							'order'             => $slide['auto_slide']['order']
 						);

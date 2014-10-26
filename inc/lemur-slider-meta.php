@@ -159,8 +159,8 @@ function lemur_slider_slide_box_callback() {
 					<?php
 					/**
 					 * Add checkbox to allow the user to enter post ID's instead of selecting a category
-					 * TODO: While Select Posts is checked, disable the category select/use in query
 					 * TODO: Hide Limit box if Select Posts is checked, and use -1 in the query for posts_per_page
+					 * TODO: Set the value as 0 if the checkbox is not checked and 1 if it is checked. Getting a PHP notice when the box isn't checked: "Notice: Undefined index: select_posts" on line 75 of templates/default/slider.php, I believe because there's just no value there (or because it's empty). It still functions fine, but notices and warnings are annoying!
 					 */
 					?>
 					<p>
