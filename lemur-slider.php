@@ -3,7 +3,7 @@
 Plugin Name: Lemur Slider
 Plugin URI:
 Description: Forked from the Nemus Slider by Viszt Péter (http://visztpeter.me)
-Version: 1.0
+Version: 1.0.1
 Author: Positive Element
 Author URI: http://www.positiveelement.com
 License: GPLv2 or later
